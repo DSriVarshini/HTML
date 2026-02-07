@@ -1,0 +1,51 @@
+
+body {
+    background-color: black;
+    font-family: Arial;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+
+.service {
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.row input {
+    width: 30%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 6px;
+}
+
+input[type=radio] {
+    width: auto;
+}
+
+input[type=submit] {
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.note {
+    font-size: 13px;
+}
